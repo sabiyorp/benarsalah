@@ -20,7 +20,6 @@
 #define LCD_LINES 2     
 
 #include <LiquidCrystal_I2C.h>
-#include <WiFi.h>
 #include <avr/wdt.h>  // Library untuk Watchdog Timer
 
 LiquidCrystal_I2C lcd(I2C_ADDR, LCD_COLUMNS, LCD_LINES);  // Inisialisasi LCD
